@@ -1,0 +1,84 @@
+
+h1, h2, h3 {
+    font-family: 'Arial', sans-serif; 
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 2.5em; 
+    color: #08033a; 
+}
+
+h2 {
+    font-size: 2em; 
+    color: #1e90ff; 
+}
+
+h3 {
+    font-size: 1.5em; 
+    color: #333; 
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    font-size: 1em; 
+    line-height: 1.6; 
+    color: #666; 
+}
+
+
+:root {
+    --primary-color: #08033a; 
+    --secondary-color: #1e90ff; 
+    --accent-color: #ff6347; 
+    --text-color: #333; 
+    --background-color: #f4f4f4; 
+}
+
+
+.btn {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.2s; 
+}
+
+.btn:hover {
+    background-color: var(--secondary-color);
+    transform: scale(1.05); 
+}
+
+
+.post-card {
+    background: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    padding: 20px;
+    margin: 10px;
+}
+
+
+img {
+    max-width: 100%; 
+    height: auto; 
+    border-radius: 5px; 
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.mt-10 {
+    margin-top: 10px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
